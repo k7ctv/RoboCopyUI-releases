@@ -8,7 +8,9 @@ Public downloads for **RoboCopyUI**, a Windows (Delphi 12 / VCL) front-end for
 - Live log view; run several jobs at once
 - **Watch mode** &mdash; keep a job watching the source and re-copying changes
   continuously (`/MON` after N changes, `/MOT` on a timer); shows *Watching* until
-  you press Stop
+  you press Stop. Note: robocopy monitoring is a poll (it re-scans the whole source
+  each cycle), not an instant trigger &mdash; frequent polling of a large tree over a
+  network can be heavy
 
 ## Download
 
