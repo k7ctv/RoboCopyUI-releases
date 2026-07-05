@@ -6,6 +6,9 @@ Public downloads for **RoboCopyUI**, a Windows (Delphi 12 / VCL) front-end for
 - Prepare copy jobs (source, destination, options) with a live command preview
 - Run jobs **detached** &mdash; reconnect and monitor status after closing the app
 - Live log view; run several jobs at once
+- **Watch mode** &mdash; keep a job watching the source and re-copying changes
+  continuously (`/MON` after N changes, `/MOT` on a timer); shows *Watching* until
+  you press Stop
 
 ## Download
 
