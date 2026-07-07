@@ -6,6 +6,12 @@ Public downloads for **RoboCopyUI**, a Windows (Delphi 12 / VCL) front-end for
 - Prepare copy jobs (source, destination, options) with a live command preview
 - Run jobs **detached** &mdash; reconnect and monitor status after closing the app
 - Live log view; run several jobs at once
+- **Live throughput** &mdash; per-job receive/send transfer rate (like Task Manager),
+  so you can see a running copy is still moving and not stalled
+- **Continuous log** &mdash; the log is kept across stop/edit/restart (each run
+  separated), with Save-Log-As and Clear-Log
+- **Orphan-proof** &mdash; the app always tracks and can stop a job's processes, plus
+  a right-click *Kill Stray Processes* escape hatch
 - **Watch mode** &mdash; keep a job watching the source and re-copying changes
   continuously (`/MON` after N changes, `/MOT` on a timer); shows *Watching* until
   you press Stop. Note: robocopy monitoring is a poll (it re-scans the whole source
